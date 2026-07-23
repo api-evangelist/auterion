@@ -1,0 +1,21 @@
+{
+  "repo": "auterion",
+  "feeds": [
+    {
+      "source": "https://github.com/Auterion",
+      "feed_url": "https://github.com/Auterion",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://auterion.com/news/",
+      "feed_url": "https://auterion.com/feed/",
+      "title": "",
+      "saved": 1,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 1,
+  "fetched": "2026-07-20T13:31:34Z"
+}

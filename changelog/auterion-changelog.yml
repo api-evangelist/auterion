@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.auterion.com/release-notes.md
+scheme: semver
+notes: >-
+  Auterion publishes per-product release notes (no single unified dated
+  changelog feed). Three product lines are versioned independently. Current
+  versions captured from the release-notes index at probe time; individual
+  dated entries live on each product's release page. No dates are asserted
+  here that were not published.
+products:
+- name: AuterionOS
+  current: 4.3.14
+  release_notes: https://docs.auterion.com/release-notes/auterionos-release-notes.md
+- name: APX4
+  current: 3.4.8
+  release_notes: https://docs.auterion.com/release-notes/apx4-release-notes.md
+- name: Auterion Mission Control (AMC)
+  current: 1.38.16
+  release_notes: https://docs.auterion.com/release-notes/auterion-mission-control-release-notes.md

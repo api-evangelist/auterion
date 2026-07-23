@@ -1,0 +1,50 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/Auterion
+notes: >-
+  Auterion exposes no public REST API or web-API client SDK. Its developer
+  surface is the on-device Auterion SDK (C++ app framework for AuterionOS,
+  documented at docs.auterion.com) plus a set of first-party open-source
+  robotics/MAVLink libraries published on the Auterion GitHub organization.
+  These are source-repo distributions (not published to npm/PyPI/crates under
+  an Auterion namespace at time of probe). Registries npm (@auterion/sdk),
+  PyPI (auterion, auterion-sdk) all returned 404.
+packages:
+- language: cpp
+  registry: github
+  name: libmav
+  url: https://github.com/Auterion/libmav
+  install: git clone https://github.com/Auterion/libmav
+  official: true
+  description: MAVLink communication library (header-only C++), Auterion's
+    modern MAVLink implementation.
+- language: python
+  registry: github
+  name: libmav-python
+  url: https://github.com/Auterion/libmav-python
+  install: git clone https://github.com/Auterion/libmav-python
+  official: true
+  description: Python bindings for libmav (MAVLink) — Python SDK surface for
+    talking MAVLink to Auterion/PX4 vehicles.
+- language: cpp
+  registry: github
+  name: px4-ros2-interface-lib
+  url: https://github.com/Auterion/px4-ros2-interface-lib
+  install: git clone https://github.com/Auterion/px4-ros2-interface-lib
+  official: true
+  description: Library to interface with PX4 from a companion computer using
+    ROS 2 (flight-mode, navigation, and control interfaces).
+- language: cpp
+  registry: github
+  name: mavlink-router
+  url: https://github.com/Auterion/mavlink-router
+  install: git clone https://github.com/Auterion/mavlink-router
+  official: true
+  description: Routes MAVLink packets between endpoints (serial, UDP, TCP).
+- language: rust
+  registry: github
+  name: px4-ulog-rs
+  url: https://github.com/Auterion/px4-ulog-rs
+  install: cargo add px4-ulog
+  official: true
+  description: PX4 ULog flight-log parser for Rust.

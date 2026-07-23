@@ -1,9 +1,28 @@
 aid: auterion
 name: Auterion
-description: 'Auterion is a company surfaced as a portfolio company of bessemer-venture-partners, costanoa-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Auterion builds the software-defined operating system for autonomous drones and
+  robots. Its open, vendor-independent stack — AuterionOS and the Skynode / Skynode X
+  flight-compute modules — runs across drones from many manufacturers, while Auterion
+  Suite provides cloud fleet management, flight data, and compliance, and Auterion
+  Mission Control is the ground-control planning and flight application. Developers
+  extend vehicles with the on-device Auterion SDK, a C++ app framework built on PX4,
+  MAVLink, and ROS 2. Auterion does not publish a public REST/OpenAPI web API; its
+  developer surface is the on-device SDK plus a set of first-party open-source MAVLink
+  and PX4 libraries on GitHub. Backed by Bessemer Venture Partners and Costanoa Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/auterion/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://auterion.com/wp-content/uploads/2026/05/auterion_logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,10 +32,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai Ml
+- Drones
+- UAV
+- Robotics
+- Autonomous Systems
+- Aerospace
+- Defense
+- Fleet Management
+- SDK
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +53,42 @@ maintainers:
 common:
 - type: Website
   url: https://auterion.com/
+- type: DeveloperPortal
+  url: https://docs.auterion.com/
+- type: Documentation
+  url: https://docs.auterion.com/
+- type: GettingStarted
+  url: https://docs.auterion.com/app-development/auterion-sdk.md
+- type: APIReference
+  url: https://docs.auterion.com/app-development/auterion-sdk/sdk-api.md
+- type: GitHubOrganization
+  url: https://github.com/Auterion
+- type: Blog
+  url: https://auterion.com/news/
+- type: BlogRSS
+  url: https://auterion.com/feed/
+- type: Support
+  url: https://auterion.com/company/contact-us/
+- type: SignUp
+  url: https://suite.auterion.com/
+- type: TermsOfService
+  url: https://auterion.com/wp-content/uploads/2025/08/2025.8.12.-Auterion-Suite-Terms-of-Service-Global.pdf
+- type: PrivacyPolicy
+  url: https://auterion.com/wp-content/uploads/2023/05/2023.04.06-Privacy-Policy.pdf
+- type: ChangeLog
+  url: https://docs.auterion.com/release-notes.md
+- type: ChangeLog
+  url: changelog/auterion-changelog.yml
+- type: LLMsTxt
+  url: llms/auterion-llms.txt
+- type: Packages
+  url: packages/auterion-packages.yml
+- type: SDKs
+  url: packages/auterion-packages.yml
+- type: DomainSecurity
+  url: security/auterion-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
