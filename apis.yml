@@ -11,6 +11,17 @@ description: >-
   developer surface is the on-device SDK plus a set of first-party open-source MAVLink
   and PX4 libraries on GitHub. Backed by Bessemer Venture Partners and Costanoa Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/auterion/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
